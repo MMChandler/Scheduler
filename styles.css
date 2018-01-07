@@ -1,0 +1,86 @@
+* {
+  font-family: 'helvetica', 'arial', sans-serif;
+  font-size: 106%
+}
+
+body {
+  background-image: url("https://i.imgur.com/QB7EcmG.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+fieldset {
+  border: 1px, outset, black;
+  border-radius: 0 7% 7% 0;
+  width: 1100px;
+  height: 600px;
+  background: lavenderblush;
+  opacity: .9;
+  padding: 6em;
+  margin-top: 1em;
+  border:1px solid #999;
+
+
+}
+
+select, input, textarea {
+  background: ivory;
+  margin-bottom: 1em;
+}
+
+label, a {
+  background: none;
+  color: darkslategrey;
+}
+
+#mInit {
+  width: 2.4em;
+}
+
+#fName {
+  width: 380px
+}
+#lName {
+  width: 480px;
+}
+#cNumber {
+  width: 800px;
+}
+
+label[for='secNumber'] {
+  margin-left: 115px;
+
+}
+
+#doctor {
+  margin-bottom: 2em;
+}
+
+input[type='submit'] {
+  margin-left: 210px;
+  color: cyan;
+  background: darkslategrey;
+  width: 12em;
+  height: 2em;
+  border-radius: 6%;
+}
+
+input[type='submit']:hover {
+  color: purple;
+  background: cornflowerblue;
+}
+
+input[type='submit']:active {
+  color: white;
+  background: grey;
+}
+textarea {
+  width: 900px;
+  height: 80px;
+  margin-top: 20px;
+}
+
+#areaCode {
+  width: 75px;
+  margin-top: 20px;
+}
